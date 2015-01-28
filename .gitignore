@@ -21,6 +21,8 @@ tests/_log/*
 *webgrind*
 bin/
 
+composer.phar
+
 # Do not ignore the gitkeeps
 !*.gitkeep
 .elasticbeanstalk/
