@@ -28,7 +28,19 @@ Getting started
 
     ```
     composer install --dev
+
     ```
+    If composer fails to download a dependency (magento was problematic to me) just look the dependency into composer.lock. Take note of the $name, $url and $reference and:
+
+    ```
+    cd vendor
+    mkdir -p $name
+    cd $name
+    git clone $url .
+    git checkout $reference
+
+    ```
+
 4. Create the database and setup the db user permissions (See the [db.ini](blob/master/task-confirmation/application/configs/db.ini)).
     4. DB User: ```vreasy```
     4. DB Password: ```;FeA336101-vreasy_task_confirmation```
