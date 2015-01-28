@@ -21,6 +21,8 @@ tests/_log/*
 *webgrind*
 bin/
 
+*.swp
+
 composer.phar
 
 # Do not ignore the gitkeeps
