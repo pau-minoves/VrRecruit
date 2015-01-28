@@ -5,7 +5,7 @@ module.exports = function(config) {
   config.set({
 
     // base path, that will be used to resolve files and exclude
-    basePath: 'vreasy/public',
+    basePath: 'Vreasy/public',
 
     // frameworks to use
     frameworks: ['jasmine'],

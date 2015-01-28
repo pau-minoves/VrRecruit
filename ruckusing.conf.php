@@ -11,7 +11,7 @@ set_include_path(implode(
 
 require_once 'Zend/Config/Ini.php';
 $config = new Zend_Config_Ini(realpath(
-    __DIR__ . '/vreasy/application/configs/db.ini'
+    __DIR__ . '/Vreasy/application/configs/db.ini'
 ));
 
 $enviroments = ['production', 'test', 'development'];

@@ -14,6 +14,6 @@ modules:
             cleanup: false
         ZF1:
             env: 'test'
-            app_path: 'vreasy/application'
+            app_path: 'Vreasy/application'
             lib_path: 'library'
-            config: 'vreasy/application/configs/application.ini'
+            config: 'Vreasy/application/configs/application.ini'
